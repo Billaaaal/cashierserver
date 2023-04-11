@@ -5,10 +5,10 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 import smbus2 as smbus
-cred = credentials.Certificate("/home/billal/code/cashierserver/cashierapp-e0cc9-firebase-adminsdk-ynpe2-7414148e59.json")
+cred = credentials.Certificate("CERTIFICAT_ICI")
 
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://cashierapp-e0cc9-default-rtdb.firebaseio.com/"    
+    'databaseURL': "URL_ICI"    
 })
 
 # Define some device parameters
